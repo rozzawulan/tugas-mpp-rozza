@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4faff; /* biru putih bersih */
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav {
+    background-color: #0d1b2a; /* navy dark */
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #00b4d8; /* aksen biru terang */
+}
+
+/* Garis */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #cce3f6;
+    margin: 20px 0;
+}
+
+/* Header */
+header {
+    background-color: #e0f7ff;
+    padding: 30px 0;
+    color: #003566;
+}
+
+/* Artikel */
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    width: 90%;
+    max-width: 600px;
+}
+
+article h2 {
+    color: #0077b6;
+}
+
+article p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Tabel */
+table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    background-color: #f1faff;
+    color: #222;
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
